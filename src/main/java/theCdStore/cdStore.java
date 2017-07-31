@@ -28,5 +28,9 @@ public class cdStore {
         return (cost >= price);
     }
 
+    public String printCD () {
+        return "Artist name: " + artistName + " Album: " + albumName + " Year: " + releaseYear + " Price: $" + price;
+    }
+
 }
 
